@@ -3,7 +3,8 @@
 #' Performs multiple adaptive sampling to train a classifier model.
 #'
 #' @param data A dimension reduced matrix from \code{matPCs}.
-#' @param label A vector of label information for each sample.
+#' @param label A named vector of label information for each sample.
+#' The names should match the sample names of \code{data}
 #' @param reducedDimName A name of the \code{reducedDim} to use. This must be 
 #' specified if \code{data} is a SingleCellExperiment object.
 #' @param classifier Base classifier model, either  "SVM" (\code{svm}) or "RF" 

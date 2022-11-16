@@ -19,7 +19,8 @@ multiAdaSampling(
 \arguments{
 \item{data}{A dimension reduced matrix from \code{matPCs}.}
 
-\item{label}{A vector of label information for each sample.}
+\item{label}{A named vector of label information for each sample.
+The names should match the sample names of \code{data}}
 
 \item{reducedDimName}{A name of the \code{reducedDim} to use. This must be
 specified if \code{data} is a SingleCellExperiment object.}

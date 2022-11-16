@@ -1,3 +1,10 @@
+## scReCkassify 1.5.1
+* Bug fixes: handling celltypes with 1 cell in multiAdaSampling function
+* Clarification in multiAdaSampling documentation for parameter label.
+
+## scReCkassify 1.5.0
+* Bioconductor 3.16 release
+
 ## scReCkassify 0.99.8
 * Included citation for the package
 
